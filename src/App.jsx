@@ -183,7 +183,9 @@ function App() {
 
       {/* HERO */}
       <section className="hero" id="top">
-        <div className="hero-bg"></div>
+        <video className="hero-bg-video" autoPlay loop muted playsInline>
+          <source src="/VN20260630_190901.mp4" type="video/mp4" />
+        </video>
         <div className="hero-steam">
           <span></span><span></span><span></span>
         </div>
